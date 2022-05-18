@@ -1,0 +1,48 @@
+import { ImageWcInterface } from './image-wc.interface';
+import { DimensionsWcInterface } from './dimensions-wc.interface';
+import { AttributeWcInterface } from './attribute-wc.interface';
+import { MetaDataWcInterface } from './meta-data-wc.interface';
+import { LinksWcInterface } from './links-wc.interface';
+
+export interface VariationWcInterface {
+    id: number;
+    date_created: Date;
+    date_created_gmt: Date;
+    date_modified: Date;
+    date_modified_gmt: Date;
+    description: string;
+    permalink: string;
+    sku: string;
+    price: string;
+    regular_price: string;
+    sale_price: string;
+    date_on_sale_from?: any;
+    date_on_sale_from_gmt?: any;
+    date_on_sale_to?: any;
+    date_on_sale_to_gmt?: any;
+    on_sale: boolean;
+    visible: boolean;
+    purchasable: boolean;
+    virtual: boolean;
+    downloadable: boolean;
+    downloads: any[];
+    download_limit: number;
+    download_expiry: number;
+    tax_status: string;
+    tax_class: string;
+    manage_stock: boolean;
+    stock_quantity?: any;
+    in_stock: boolean;
+    backorders: string;
+    backorders_allowed: boolean;
+    backordered: boolean;
+    weight: string;
+    dimensions: DimensionsWcInterface;
+    shipping_class: string;
+    shipping_class_id: number;
+    image: ImageWcInterface;
+    attributes: AttributeWcInterface[];
+    menu_order: number;
+    meta_data: MetaDataWcInterface[];
+    _links: LinksWcInterface;
+}

@@ -8406,13 +8406,10 @@
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-3.9.9.tgz"
   "version" "3.9.9"
 
-"typescript@^4.2.3":
-  "integrity" "sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.2.3.tgz"
-  "version" "4.2.3"
-
-"typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
-  "version" "3.9.9"
+"typescript@^4.2.3", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+  "integrity" "sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.6.4.tgz"
+  "version" "4.6.4"
 
 "unbox-primitive@^1.0.0":
   "integrity" "sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw=="
@@ -8783,6 +8780,11 @@
   "version" "1.7.0"
   dependencies:
     "errno" "~0.1.7"
+
+"wp-api-types@^1.0.0":
+  "integrity" "sha512-z6rwWjBoD9PFs7qzIzQ19augasCDygSzfP74BOA5pP+9731TkmUgAwz7wwH4Bqc+IzYZrmlLgnA3EWkcpwz5rQ=="
+  "resolved" "https://registry.npmjs.org/wp-api-types/-/wp-api-types-1.0.0.tgz"
+  "version" "1.0.0"
 
 "wrap-ansi@^3.0.1":
   "integrity" "sha1-KIoE2H7aXChuBg3+jxNc6NAH+Lo="

@@ -1,0 +1,34 @@
+export interface EnvironmentWcInterface {
+    home_url: string;
+    site_url: string;
+    version: string;
+    log_directory: string;
+    log_directory_writable: boolean;
+    wp_version: string;
+    wp_multisite: boolean;
+    wp_memory_limit: number;
+    wp_debug_mode: boolean;
+    wp_cron: boolean;
+    language: string;
+    external_object_cache: null;
+    server_info: string;
+    php_version: string;
+    php_post_max_size: number;
+    php_max_execution_time: number;
+    php_max_input_vars: number;
+    curl_version: string;
+    suhosin_installed: boolean;
+    max_upload_size: number;
+    mysql_version: string;
+    mysql_version_string: string;
+    default_timezone: string;
+    fsockopen_or_curl_enabled: boolean;
+    soapclient_enabled: boolean;
+    domdocument_enabled: boolean;
+    gzip_enabled: boolean;
+    mbstring_enabled: boolean;
+    remote_post_successful: boolean;
+    remote_post_response: string;
+    remote_get_successful: boolean;
+    remote_get_response: string;
+}
