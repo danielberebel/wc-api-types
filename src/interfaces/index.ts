@@ -1,3 +1,5 @@
+export * from './setting-wc.interface';
+
 export * from './attribute-wc.interface';
 export * from './term-wc.interface';
 
