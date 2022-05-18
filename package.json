@@ -31,16 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "wc-types",
-  "author": "Dani",
-  "module": "dist/wc-types.esm.js",
+  "name": "wc-api-types",
+  "author": "Daniel BeRebel",
+  "module": "dist/wc-api-types.esm.js",
   "size-limit": [
     {
-      "path": "dist/wc-types.cjs.production.min.js",
+      "path": "dist/wc-api-types.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/wc-types.esm.js",
+      "path": "dist/wc-api-types.esm.js",
       "limit": "10 KB"
     }
   ],
